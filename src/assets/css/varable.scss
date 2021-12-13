@@ -1,0 +1,46 @@
+/*primary colors*/
+
+$white-cl: #fff;
+$black-cl: #151515;
+$green-cl: #6A983C;
+$dackgreen-cl: #46760A;
+$yellow-cl: #FDBC15;
+$red-cl:#E5704B;
+$black-bg-cl: #000;
+$white-bg-cl:#F9F9F9;
+$border-grey-cl:#D1D1D1;
+$main-bg-cl:#ffff;
+// timing transition
+$t: 0.4s;
+$cubic: cubic-bezier(0.84, 0.13, 0.33, 0.97);
+
+/*font families*/
+
+$font-stack: "Open Sans",
+sans-serif;
+$font-main: pr;
+
+/*headings typo*/
+
+$fz-text: 12px;
+$lh-text: 20px;
+$fz-text-m: 16px;
+$lh-text-m: 20px;
+html,
+body {
+    --heightHeader: 90px;
+}
+
+//============================================================//
+$container-max-width: 100%;
+$container-width: 1140px;
+$xxs-min: 576px;
+$xs-min: 768px;
+$sm-min: 992px;
+$md-min: 1200px;
+$lg-min: 1600px;
+$xxs-max: ($xxs-min - 1);
+$xs-max: ($xs-min - 1);
+$sm-max: ($sm-min - 1);
+$md-max: ($md-min - 1);
+$lg-max: ($lg-min - 1);

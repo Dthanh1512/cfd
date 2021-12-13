@@ -1,0 +1,43 @@
+@import "../../assets/css/style.scss";
+footer {
+    .footer-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: $black-cl;
+        line-height: 27px;
+    }
+    .list-unstyled {
+        li {
+            margin-top: 15px;
+            .footer-text {
+                font-size: 14px;
+                color: $green-cl;
+            }
+        }
+    }
+    .footer__tag {
+        display: flex;
+        flex-wrap: wrap;
+        &-item {
+            background-color: $white-bg-cl;
+            border-radius: 12px;
+            padding: 4px 10px;
+            margin-top: 16px;
+            margin-right: 16px;
+            width: max-content;
+            &:last-child {
+                margin-right: 0;
+            }
+            .item-link {
+                color: $black-cl;
+                font-size: 12px;
+                font-weight: 600;
+                @include mid(true);
+            }
+        }
+    }
+    .footer__copy {
+        font-size: 14px;
+        margin-top: 50px;
+    }
+}
